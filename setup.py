@@ -15,9 +15,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'gymnasium>=0.28.0',
+        'gymnasium==0.29.1',
         'numpy==1.23.3',
-        'ray[rllib]>=2.8.1',
+        #'ray[rllib]>=2.8.1',
         'torch>=2.0.1',
     ],
     extras_require=extras,
