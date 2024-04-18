@@ -18,7 +18,7 @@ setup(
         'gymnasium==0.29.1',
         'numpy==1.23.3',
         'ray[rllib]==2.0.0',
-        'tensorboard==2.16.2',
+        'tensorboard==2.10.1',
         'torch>=2.0.1',
     ],
     extras_require=extras,
