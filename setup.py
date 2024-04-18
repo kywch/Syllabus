@@ -17,7 +17,8 @@ setup(
     install_requires=[
         'gymnasium==0.29.1',
         'numpy==1.23.3',
-        #'ray[rllib]>=2.8.1',
+        'ray[rllib]==2.0.0',
+        'tensorboard>=2.13.0',
         'torch>=2.0.1',
     ],
     extras_require=extras,
