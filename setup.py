@@ -22,7 +22,7 @@ setup(
         'torch>=2.0.1',
     ],
     extras_require=extras,
-    python_requires=">=3.8, <=3.11",
+    python_requires=">=3.8",
     author="Ryan Sullivan",
     author_email="rsulli@umd.edu",
     url="https://github.com/RyanNavillus/Syllabus",
